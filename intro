@@ -1,0 +1,72 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+		<title>PROSPERA: PORTFOLIO.</title>
+		<style>
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #8BC9E2;
+			}
+		
+			li {
+				float: left;
+			}
+			
+			li a:hover{
+				background-color: #A2C9E2;
+			}
+		
+			li a{
+				padding: 14px 16px;
+				test-align: center;
+				display: block;
+				color: white;
+				text-decoration: none;
+			}
+
+		.mySlides {
+			display: none;
+			text-align: center;
+		}
+		
+		.dots {
+			border-radius: 50%;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			display: inline-block;
+			background-color: #bbb;
+		}
+		
+		.active {
+			background-color: #717171;
+		}
+		</style>
+	</head>
+	
+	<body>
+				<ul>
+			<li><a href="gwc fp intro.html">HOME.</a></li>
+			<li><a href="gwc fin landscapes.html">FIN. ART; LANDSCAPES.</a></li>
+			<li><a href="gwc fin portraits.html">FIN. ART; ZINE ENTRIES / POPULAR WORKS.</a></li>
+			<li><a href="gwc fp wip.html">WIP.</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Zine">WHAT'S A ZINE?</a></li>
+		</ul>
+<h1 align="center">hi there!</h1>
+<p align="center"><b>my name is chloe.</b></p>
+<p>i'm a sophomore in highschool. currently i'm dying because i'm starting a couple of finals - related projects!</p>
+<p>i like to draw: girls. i can't draw guys <i>good</i>, & believe me, i've tried.<br> i also like to draw characters from, but not limted to: percy jackson, batim, musicals, & a whole bunch of original characters.</p>
+<p>i've participated in one ( 1 ) zine before, & am planning on hosting my own. what's a zine? go to that tab!
+<p>this intro is a little bland but uh ... hope you enjoy my art at least. not the most " memey " page i promised, but last minute ideas can prove fruitful.</p>
+<p align="center"><b>social media handles.</b>
+	<br align="center">
+	<b>instagram.</b> <a href="https://www.instagram.com/minoiresque/">minoiresque.</a>
+	<br align="center">
+	<b>tumblr.</b> <a href="https://minoiresque.tumblr.com/tagged/my-art">minoiresque.</a> if this link doesn't work, take out the " https:// " part & it should work. note that i got it recently, so a lot of art on my insta isn't there.
+		</script>
+	</body>
+</html>
