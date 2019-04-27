@@ -1,0 +1,97 @@
+	<head>
+		<title>PROSPERA: PORTFOLIO.</title>
+		<style>
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #8BC9E2;
+			}
+		
+			li {
+				float: left;
+			}
+			
+			li a:hover{
+				background-color: #A2C9E2;
+			}
+		
+			li a{
+				padding: 14px 16px;
+				test-align: center;
+				display: block;
+				color: white;
+				text-decoration: none;
+			}
+
+		.mySlides {
+			display: none;
+			text-align: center;
+		}
+		
+		.dots {
+			border-radius: 50%;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			display: inline-block;
+			background-color: #bbb;
+		}
+		
+		.active {
+			background-color: #717171;
+		}
+		</style>
+	</head>
+	
+	<body>
+				<ul>
+			<li><a href="gwc fp intro.html">HOME.</a></li>
+			<li><a href="gwc fin landscapes.html">FIN. ART; LANDSCAPES.</a></li>
+			<li><a href="gwc fin portraits.html">FIN. ART; PORTRAITS.</a></li>
+			<li><a href="gwc fp wip.html">WIP.</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Zine">WHAT'S A ZINE?</a></li>
+		</ul>
+		<br>
+		<div class="circle" id="zigZagCircle"></div>
+		<div class="mySlides">
+			<img src="ok.png" style="width:50%" style="height:50%" align="center">
+		</div>
+		<div class="mySlides">
+			<img src="ok1.png" style="width:50%" style="height:50%" align="center">
+		</div>
+		<div class="mySlides">
+			<img src="ok2.png" style="width:50%" style="height:50%" align="center">
+		</div>
+		
+		<br>
+		
+		<div style="Text-align:center">
+			<span class='dots'></span>
+			<span class='dots'></span>
+			<span class='dots'></span>
+		</div>
+		<script>
+			var slideIndex=0;
+			showSlides();
+				function showSlides() {
+					var slides =  document.getElementsByClassName("mySlides");var dots = document.getElementsByClassName('dots');
+					for (var i=0; i<slides.length; i++) {
+						slides[i].style.display="none";
+						dots[i].className = dots[i].className.replace(" active", "")
+					}
+					if (slideIndex>slides.length-1) {
+						slideIndex=0;
+					}
+					slides[slideIndex].style.display='block';
+					dots[slideIndex].className+=" active";
+					setTimeout(showSlides,2000);
+					slideIndex++;
+				}
+		</script>
+	</body>
+</html>
+
+
+
